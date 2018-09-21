@@ -1,0 +1,34 @@
+<resources>
+    <string name="mortgage_label">Mortgage </string>
+    <string name="mortgage_value">100000</string>
+
+    <string name="term_label">Term in Years</string>
+    <string name="term_value">15</string>
+
+    <string name="interest_label">Interest Rate</string>
+    <string name="interest_value">0.06</string>
+
+    <string name="monthly_payment_label">Monthly Payment</string>
+    <string name="monthly_payment_value">0</string>
+
+    <string name="interest_paid_label">Interest</string>
+    <string name="interest_paid_value">0.15</string>
+
+    <string name="principal_label">Monthly Payment</string>
+    <string name="principal_value">0.0</string>
+
+
+    <string name="yearly_tax_label">Yearly Tax</string>
+    <string name="yearly_tax_value">0.0</string>
+
+    <string name="total_pay_label">Total Paid</string>
+    <string name="total_pay_value">0.0</string>
+
+    <string name="total_interest_label">Interest Paid</string>
+    <string name="total_interest_value">0.0</string>
+
+    <string name="total_taxes_label">Est Total Taxes</string>
+    <string name="total_taxes_value">0.0</string>
+
+    <string name="calculate_button">Calculate</string>
+</resources>
