@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/dateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="date"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_alignParentTop="true"
+            android:layout_margin="8dp" />
+
+        <TextView
+            android:id="@+id/dayTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="day"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_alignBaseline="@+id/dateTextView"
+            android:layout_alignBottom="@+id/dateTextView"
+            android:layout_toRightOf="@+id/dateTextView"
+            android:layout_toEndOf="@+id/dateTextView"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp" />
+
+        <TextView
+            android:id="@+id/timeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/time"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginLeft="18dp"
+            android:layout_marginStart="18dp"
+            android:layout_alignBaseline="@+id/dayTextView"
+            android:layout_alignBottom="@+id/dayTextView"
+            android:layout_toRightOf="@+id/dayTextView"
+            android:layout_toEndOf="@+id/dayTextView" />
+
+        <TextView
+            android:id="@+id/heightTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tide"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_alignBaseline="@+id/timeTextView"
+            android:layout_alignBottom="@+id/timeTextView"
+            android:layout_toRightOf="@+id/timeTextView"
+            android:layout_toEndOf="@+id/timeTextView" />
+
+
+</RelativeLayout>

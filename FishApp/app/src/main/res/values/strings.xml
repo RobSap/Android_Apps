@@ -1,0 +1,140 @@
+<resources>
+    <string name="app_name">TidePrediction</string>
+    <string name="showTides">Current Forcast</string>
+    <string name="show5DayForecast">5 Day Forcast</string>
+    <string name="dateSlect">2016/12/31</string>
+    <string name="locationSelect">Select City</string>
+    <string name="selectCity">Select City</string>
+    <string name="selectDate">Select Date</string>
+    <string name="coastlForecast">Current Coastal Weather</string>
+    <string name="defaultDate">Select defaultDate</string>
+
+    <string name="tideHeight">Tide Height</string>
+    <string name="getGPSLocation">GPS Location</string>
+
+    <string name="GPSSelectedCity">GPS Selected City</string>
+
+   <!-- https://opendap.co-ops.nos.noaa.gov/ioos-dif-sos/ClientGetter?p=8
+   https://tidesandcurrents.noaa.gov/tide_predictions.html
+    -->
+    <string name="time">Time</string>
+    <string name="tide">Tide</string>
+
+    <string name="dateLabel">Date</string>
+    <string name="timeLabel">Time</string>
+    <string name="dayLabel">Day</string>
+    <string name="tideLabel">Tide</string>
+
+    <string name="riverBayName">Default City</string>
+    <string name="lastUpdatedTime">Default Time</string>
+    <string name="coastalWeather">coastalWeather</string>
+    <string name="CoastalWeatherActivityTitle">Coastal Info</string>
+    <string name="TidesACtivityTitle">Weather</string>
+    <string name="WeatherActivityTitle">Weather</string>
+
+    <string name = "DisplayWaitingOnWebRequest"> loading...</string>
+
+    <string-array name="myStatesTides">
+        <item>Oregon</item>
+    </string-array>
+
+    <!--
+   Maine
+   New Hampshire
+   Massachusetts
+   Rhode Island
+   Connecticut
+   New York
+   New Jersey
+   Delaware
+   Pennsylvania
+   Maryland
+   Virginia
+   Washington DC
+   North Carolina
+   South Carolina
+   Georgia
+   Florida
+   Gulf Coast
+   Alabama
+   Mississippi
+   Louisiana
+   Texas
+   Pacific
+   Northern Marianas Islands
+   Federated States of Micronesia
+   Marshall Islands
+   Hawaii
+   French Polynesia
+   Cook Islands
+   Fiji
+   Tokelau
+   American Samoa
+   Kiribati
+    https://tidesandcurrents.noaa.gov/tide_predictions.html
+     -->
+
+    <string-array name="myStatesOther">
+        <item>Oregon</item>
+    </string-array>
+
+   <string-array name="otherCities">
+             <item>Port Orford</item>
+             <item>Charleston</item>
+            <item>South Beach</item>
+            <item>Garibaldi</item>
+            <item>Astoria</item>
+   </string-array>
+
+    <string-array name="oregon">
+        <item>Port Orford</item>
+        <item>Charleston</item>
+        <item>South Beach</item>
+        <item>Garibaldi</item>
+        <item>Astoria</item>
+    </string-array>
+
+    <string-array name="tidesCities">
+       <!-- <item>Half Moon Bay</item>
+       -->
+        <!-- Umpqua River-->
+        <item> Umpqua River Entrance, Half Moon Bay</item>
+
+
+        <!-- Siuslaw River-->
+
+        <item> Florence USCG Pier</item>
+
+
+        <!-- Coos Bay-->
+        <item>CHARLESTON</item>
+
+
+        <!-- Yaquina Bay and River-->
+
+        <item> Southbeach</item>
+        <item> Weiser Point, Yaquina River</item>
+
+
+        <!-- Nehalem River-->
+
+
+        <!-- Tillamook Bay-->
+
+        <item> Garibaldi</item>
+        <item> Dick Point</item>
+
+
+        <item>Gold Beach, Rogue River</item>
+        <item>Port Orford</item>
+
+
+        <item>Waldport, Alsea Bay</item>
+        <item>Depoe Bay</item>
+
+        <item>Cascade Head, Salmon River</item>
+        
+
+    </string-array>
+
+</resources>
