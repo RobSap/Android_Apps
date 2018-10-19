@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:focusable="true"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:windowSoftInputMode="stateHidden"
+    android:background="@drawable/pig"
+
+    tools:context="rsapping.edu.uoregon.piggame.MainActivity">
+
+
+
+
+    <EditText
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/playerOneNameTextEdit"
+        android:text="@string/playeronename"
+        android:inputType="text"
+        android:minWidth="30dp"
+        android:maxWidth="170dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:imeOptions="actionDone"
+        android:maxLength="12"
+        android:layout_below="@+id/player1Label"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/player1"
+        android:id="@+id/player1Label"
+        android:layout_gravity="center|left"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/player2"
+        android:id="@+id/player2Label"
+        android:layout_gravity="center|left"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+
+    <EditText
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/playerTwoNameTextEdit"
+        android:text="@string/playertwoname"
+        android:inputType="text"
+        android:minWidth="30dp"
+        android:maxWidth="170dp"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:imeOptions="actionDone"
+        android:maxLength="12"
+        android:layout_below="@+id/player2Label"
+        android:layout_alignRight="@+id/player2Label"
+        android:layout_alignEnd="@+id/player2Label" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/playersturn"
+        android:id="@+id/playersTurnTextView"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_above="@+id/playerTwoNameTextEdit"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageButton"
+        android:padding="10dp"
+        android:contentDescription="@string/diceroll"
+        android:src="@drawable/die"
+        android:layout_below="@+id/playersTurnTextView"
+        android:layout_toLeftOf="@+id/pointsForThisTurnTextView"
+        android:layout_toStartOf="@+id/pointsForThisTurnTextView" />
+
+    <ImageButton
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageButton2"
+        android:padding="10dp"
+        android:contentDescription="@string/diceroll"
+        android:src="@drawable/die"
+        android:layout_above="@+id/pointsForThisTurnLabel"
+        android:layout_toRightOf="@+id/pointsForThisTurnTextView"
+        android:layout_toEndOf="@+id/pointsForThisTurnTextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/score"
+        android:id="@+id/playerOneScoreLabel"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/playerOneNameTextEdit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/score2"
+        android:id="@+id/playerTwoScoreLabel"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/playerTwoNameTextEdit"
+        android:layout_alignRight="@+id/playerTwoNameTextEdit"
+        android:layout_alignEnd="@+id/playerTwoNameTextEdit" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_02"
+        android:id="@+id/playerOneScoreTextView"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/playerOneScoreLabel"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_03"
+        android:id="@+id/playerTwoScoreTextView"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/playerTwoScoreLabel"
+        android:layout_alignRight="@+id/playerTwoScoreLabel"
+        android:layout_alignEnd="@+id/playerTwoScoreLabel" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/points_for_this_turn"
+        android:id="@+id/pointsForThisTurnLabel"
+        android:layout_below="@+id/imageButton"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_0"
+        android:id="@+id/pointsForThisTurnTextView"
+        android:layout_below="@+id/pointsForThisTurnLabel"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/roll_die"
+        android:id="@+id/rollDieButton"
+        android:padding="10dp"
+        android:maxWidth="100dp"
+        android:minHeight="40dp"
+        android:minWidth="100dp"
+        android:maxHeight="40dp"
+        android:layout_below="@+id/playerOneScoreTextView"
+        android:layout_toLeftOf="@+id/newGameButton"
+        android:layout_toStartOf="@+id/newGameButton" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/end_turn"
+        android:id="@+id/endTurnButton"
+        android:padding="10dp"
+        android:maxWidth="100dp"
+        android:minHeight="40dp"
+        android:minWidth="100dp"
+        android:maxHeight="40dp"
+        android:layout_below="@+id/playerTwoScoreTextView"
+        android:layout_toRightOf="@+id/newGameButton"
+        android:layout_toEndOf="@+id/newGameButton" />
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_game"
+        android:id="@+id/newGameButton"
+        android:padding="10dp"
+        android:layout_below="@+id/endTurnButton"
+        android:layout_centerHorizontal="true"
+        android:maxWidth="100dp"
+        android:minHeight="40dp"
+        android:minWidth="100dp"
+        android:maxHeight="40dp" />
+
+</RelativeLayout>
