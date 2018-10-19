@@ -15,26 +15,25 @@ This is in a continuation of the tide predition app. Right now it does the tide 
 Code: [Here](https://github.com/RobSap/Android_Apps/tree/master/FishApp)
 
 ### Lab1
-- This is a simple counter app. Press + to increment, and click reset to reset.
+This is a simple counter app. Press + to increment, and click reset to reset.
 
 ### Lab2
-- PigDice game, 2 player, 1 dice, change player name
+PigDice game, 2 player, 1 dice, change player name
 
 ### Lab3
-- PigDice game, 2 player, ai added, 1 dice or 2 dice.
+PigDice game, 2 player, ai added, 1 dice or 2 dice.
 
 ### Lab4
--PigDice game, 2 player, ai, ai difficulty added, 1 or 2 dice, options added, change players name. Added title activity.
-
+PigDice game, 2 player, ai, ai difficulty added, 1 or 2 dice, options added, change players name. Added title activity.
 
 ### Lab5
-- Tide preidion app. 1 location, all displayed on 1 page. Uses sqlite database to store requests for future use.
+Tide preidion app. 1 location, all displayed on 1 page. Uses sqlite database to store requests for future use.
 
 ### Lab6
-- Tide prediciton app. 3 locations, display specific date. Uses sqlite database to store requests for future use.
+Tide prediciton app. 3 locations, display specific date. Uses sqlite database to store requests for future use.
 
 ### Lab7
-- Tide prediction app. Select date, select Oregon Beach. Display 2 days by default. Uses sqlite database to store requests for future use. Pulls in 2 days before request, and 2 days after request.
+Tide prediction app. Select date, select Oregon Beach. Display 2 days by default. Uses sqlite database to store requests for future use. Pulls in 2 days before request, and 2 days after request.
 
 ### GRE Prepper 
-- GRE Prepper. Two modes, 1) flash cards asking math questions 2) multiple choice questions. Added menu, can select number of questions in flash cards or in the multiple choice questions.
+GRE Prepper. Two modes, 1) flash cards asking math questions 2) multiple choice questions. Added menu, can select number of questions in flash cards or in the multiple choice questions.
