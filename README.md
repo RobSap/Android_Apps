@@ -1,7 +1,7 @@
 
 ## Welcome to Rob's GitHub Pages
 
-This repository uses GitHub Pages and Markdown files. Click [here](https://robsap.github.io/Android_Apps/) to view as a webpage.
+This repository uses GitHub Pages and Markdown files. Click [here](https://robsap.github.io/Android_Apps.html) to view as a webpage.
 
 ### Projects
 Most of these projects came out of an Android Class. 
