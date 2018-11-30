@@ -1,8 +1,0 @@
-<resources>
-    <string name="app_name">counter</string>
-    <string name="resetButton">Reset</string>
-    <string name="incrementButton">Add One</string>
-    <string name="countLabel">Count</string>
-    <string name="countTextView">0</string>
-    <string name="current_count">Current Count</string>
-</resources>
