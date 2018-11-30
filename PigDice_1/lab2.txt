@@ -1,0 +1,11 @@
+Robert Sappington
+
+part1
+4-1, Test and debug the Tip Calculator app
+A. yes
+
+part 2 
+- implemented save current game
+- implemented icon on phone
+- implemented background
+- implemented closing text box by touching outside of screen
